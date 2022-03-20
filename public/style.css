@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    padding: 33px 140px 24px 113px;
+    align-items: center;
+}
+.header-content{
+    display: flex;
+}
+.header-lists{
+    display: inline-block;
+    margin-right: 27px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B08EAD;
+}
+.header-logo{
+    margin-right: 531px;
+}
+.screen2{
+    position: relative;
+}
+.purple-block{
+    width: 100%;
+    height: 458px;
+    background-color: #C9ADC6;
+}
+.pink-block{
+    width: 100%;
+    height: 359px;
+    background-color: #D6BBD3;
+}
+.screen2-img{
+    position: absolute;
+    top: 72px;
+    left: 178px;
+}
+.screen2-content{
+    background-color: #B08EAD;
+    width: 425px;
+    height: 450px;
+    padding: 124px 105px 119px 40px;
+    position: absolute;
+    top: 182px;
+    right: 113px;
+}
+.screen2-para{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.screen2-title{
+    font-family: Cormorant Garamond, serif;
+    font-size: 45px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+.screen2-btn{
+    border: none;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+}
+.screen3{
+    margin-top: 75px;
+    margin-bottom: 70px;
+}
+.screen3-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen3-title{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-bottom: 13px;
+}
+.screen3-para{
+    margin-top: 0;
+    font-family: Cormorant Garamond, serif;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #5F4D5D;
+    margin-bottom: 17px;
+}
+.screen3-btn{
+    width: 141px;
+    height: 45px;
+    border: 1px solid #B99BB6;
+    border-radius: 25px;
+    background-color: transparent;
+    font-family: Roboto, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.screen3-row{
+    display: flex;
+    column-gap: 37px;
+    justify-content: center;
+}
+.screen3-col{
+    background-color: #CEB3CB;
+    width: 368px;
+    height: 427px;
+}
+.col-para{
+    font-family: Cormorant Garamond, serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 23px;
+    margin-top: 23px;
+    margin-bottom: 6px;
+}
+.col-link{
+    font-family: Cormorant Garamond, serif;
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-left: 23px;
+    text-decoration: none;
+}
+.screen4{
+    display: flex;
+    padding: 0 111px 40px 173px;
+    border-bottom: 1px solid #D7B7D4;
+}
+.screen4-title{
+    margin-top: 88px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+.screen4-para{
+    font-family: Cormorant Garamond, serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin-bottom: 10px;
+    margin-right: 66px;
+    margin-top: 0;
+}
+.screen5{
+    padding: 40px 224px 41px 144px;
+    display: flex;
+    column-gap: 93px;
+    border-bottom: 1px solid #D7B7D4;
+}
+.screen5-title{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+}
+.screen5-para{
+    font-family: Cormorant Garamond, serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+.screen6{
+    padding: 40px 111px 91px 173px;
+    display: flex;
+    column-gap: 88px;
+}
+.screen6-title{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #B99BB6;
+    margin-top: 83px;
+    margin-bottom: 10px;
+}
+.screen6-para{
+    font-family: Cormorant Garamond, serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #5F4D5D;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+.screen7{
+    margin-bottom: 75px;
+}
+.screen7-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 26px;
+    row-gap: 54px;
+}
+.screen7-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.screen7-para{
+    font-family: Cormorant Garamond, serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #5F4D5D;
+    margin-top: 9px;
+    margin-bottom: 7px;
+}
+.screen7-para2{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #B0B0B0;
+}
+.footer-row{
+    height: 213px;
+    background-color: #D6BBD3;
+    display: flex;
+    padding: 46px 298px 11px 299px;
+    justify-content: space-between;
+}
+.footer-para{
+    font-family: Cormorant Garamond, serif;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+.footer-para2{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+.footer-block2{
+    height: 137px;
+    background-color: #C9ADC6;
+    padding: 27px 350px 57px 487px;
+    display: flex;
+    column-gap: 64px;
+}
+.footer-lists{
+    display: flex;
+    column-gap: 30px;
+    list-style-type: none;
+    font-family: Cormorant Garamond, serif;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
